@@ -16,6 +16,19 @@ const gameName = new String("shikhar123");
 
 //console.log(gameName.indexOf('k'));
 
+newString = gameName.substring(0,4)
+ //console.log(newString);
+
+const anotherString = gameName.slice(-8,4)
+// console.log(anotherString);
+
+const newStringOne = "            shikhar         ";
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+
+
+
 
 
 
