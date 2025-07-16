@@ -16,6 +16,8 @@
 
  // Non primitive datatype or reference type
 
- // array, object, function
+ // array, object, 
+ 
+ const myArr = ["Mango","Apple","papaya"];
  
  
