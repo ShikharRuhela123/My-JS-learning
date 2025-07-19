@@ -23,8 +23,16 @@ const anotherString = gameName.slice(-8,4)
 // console.log(anotherString);
 
 const newStringOne = "            shikhar         ";
-console.log(newStringOne);
-console.log(newStringOne.trim());
+//console.log(newStringOne);
+//console.log(newStringOne.trim());
+
+const url = "https://shikhar.com/shikhar%20ruhela";
+console.log(url.replace('%20','-'));
+console.log(url.includes('shikhar')); /// include used for finding value in string
+
+console.log(gameName.split('+'));
+
+
 
 
 
