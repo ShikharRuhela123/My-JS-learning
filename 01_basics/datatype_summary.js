@@ -26,16 +26,37 @@
  }
 
  const myFun = function(){                                   // Function declartion
-    console.log("Hello World");
+  //  console.log("Hello World");
  }
  
 
- console.log(typeof myArr);
- console.log(typeof myFun);
-  console.log(typeof myObj);
-   console.log(typeof anotherId);
-    console.log(typeof scoreValue);
+ // console.log(typeof myArr);
+ // console.log(typeof myFun);
+  // console.log(typeof myObj);
+   // console.log(typeof anotherId);
+    // console.log(typeof scoreValue);
 
+    // +++++++++++++++++++++++++++++++++ Memory Concept of Javascript ++++++++++++++++++++++++++++++
+
+    let myyoutubeName = "hiteshchaudary.com";
+    let anotherName = myyoutubeName;
+    anotherName = "chai or code";
+
+    console.log(myyoutubeName);
+    console.log(anotherName);
+
+    let userOne = {
+      email:"xyz@google.com",
+      upi :"user@ybl"
+    }
+
+    let userTwo = userOne;
+    userTwo.email = "hitesh@google.com";
+   
+    console.log(userOne.email);
+    console.log(userTwo.email);
+    
+    
     
  
  // https://262.ecma-international.org/5.1/#sec-11.4.3
