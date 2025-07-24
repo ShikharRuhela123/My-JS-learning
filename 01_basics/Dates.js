@@ -1,9 +1,13 @@
 let myDate = new Date();
 
-  //console.log(myDate);
+  console.log(myDate);
   //console.log(typeof myDate);
   //console.log(myDate.toLocaleString());
-  //.log(myDate.toString());
+  //console.log(myDate.toString());
+  console.log(myDate.toISOString());
+  console.log(myDate.toJSON());
+  
+  
 
  let myCreateDate = new Date(2025,2,23);
  //console.log(myCreateDate);
@@ -24,9 +28,9 @@ let myDate = new Date();
  // console.log(Math.floor(Date.now()/1000));
 
  let newDate = new Date();
- console.log(newDate);
- console.log(newDate.getMonth());
- console.log(newDate.getDay().toString());
+ // console.log(newDate);
+ // console.log(newDate.getMonth());
+ // console.log(newDate.getDay().toString());
  
  
    
