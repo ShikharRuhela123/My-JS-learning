@@ -1,4 +1,6 @@
- const mySym = Symbol("key1");
+// object literals
+
+const mySym = Symbol("key1");
 
  const jsuser = {
     name : "shikhar",
@@ -35,12 +37,19 @@
 // Function in object
 
 jsuser.greeting = function() {
-   console.log("Hello js user");
+  console.log("Hello js user");
 }
 
-console.log(jsuser.greeting);
+ console.log(jsuser.greeting);
+ console.log(jsuser.greeting());
 
-console.log(jsuser.greeting());
+jsuser.greetingTwo = function() {
+   console.log(`Hello jsuser, ${this.name}`);
+}
+
+ console.log(jsuser.greetingTwo);
+console.log(jsuser.greetingTwo());
+
 
 
  
