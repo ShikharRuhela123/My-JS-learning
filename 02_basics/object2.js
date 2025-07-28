@@ -59,7 +59,34 @@ const users = [
 }
 ]
 
-console.log(users[0].email);
+// console.log(users[0].email);
+
+const course = {
+    courseName : "js in hindi",
+    price : 999,
+    courseInstructor : "shikhar"
+}
+
+const {courseInstructor : instructor} = course;
+// console.log(courseInstructor);
+console.log(instructor);
+
+const {price : money} = course;
+console.log(money);
+
+
+// {
+//     "name" :"shikhar",
+//     "coursename" : "js in hindi",     // jeson concept
+//     "price" : "free"
+// }
+
+
+// [
+//     {},
+//     {},                   api call array ki form meh bhi askti hai
+//     {}
+// ]
 
 
 
