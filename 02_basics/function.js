@@ -58,7 +58,35 @@ function calculateCartPrice(...num1){
 function calculate(val1, val2, val3, ...num1){
     return num1;
 }
-console.log(calculate(200,400,5000,1000));
+// console.log(calculate(200,400,5000,1000));
+
+const user = {
+    username : "shikhar ruhela",
+    price : 999
+}
+
+function objectHandle(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// objectHandle(user);
+
+objectHandle({
+    username : "gaurav",
+    price : 9999
+})
+
+const myArr = [200, 400, 100, 600]
+
+function myarrayValue(getValue){
+            console.log(getValue[3]);
+}
+
+// myarrayValue(myArr)
+
+myarrayValue([
+    400,500,666,10000,450
+])
 
 
 
