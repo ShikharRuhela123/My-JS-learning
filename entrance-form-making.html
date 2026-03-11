@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-16x16.png">
+    <meta property="og:title" content="Its my first Entrance Form">
+    <meta property="og:description" content="A simple entrance form for students">
+      <meta property="og:image" content="logo.svg">
+      <meta property="og:url" content="https://www.example.com/entrance-form">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Its my first Entrance Form">
+      <meta name="twitter:description" content="A simple entrance form for students">
+      <meta name="twitter:image" content="logo.svg">
+</head>
+<body style="background-color: rgba(0,0,0,0.4);">
+   <!-- <h1 style="text-align: center;">Enter Your Password For login This Form</h1><br>
+    <label for="paswrd">Enter Your Login Password</label>
+   <input type="password" name="password" id="paswrd">
+   <button type="button" name="login" value="">Login</button> -->
+    <center><h1>Entrance Form</h1></center>
+    <form action="https://formspree.io/f/mykdllnv" method="post">
+     <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Student Name</label>
+        <input type="text" id="name" placeholder="Enter Name" name="Stu-name" value=""><br>
+        <label for="FatherN">Father Name</label>
+        <input type="text" id="FatherN" placeholder="Enter" name="FName" value=""><br>
+        <label for="MotherN">Mother Name</label>
+        <input type="text" id="MotherN" placeholder="Enter" name="Mname" value=""><br><br>
+        <label for="add">Address</label>
+        <textarea name="Address" id="add" value="" cols="30" rows="2"></textarea><br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="date-of-birth" value=""><br>
+        <label for="mail">Email</label>
+        <input type="email" name="email" id="mail" value="">
+     </fieldset>
+     <fieldset>
+        <legend>Gender</legend>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender" value="Male"><br>
+        <label for="female">Female</label>
+        <input type="radio"  name="Gender" value="female" id="female">
+     </fieldset>
+     <fieldset>
+     <legend>category</legend>
+     <label for="sc">SC</label>
+     <input type="checkbox" id="sc" name="category" value="sc">
+     <label for="st">ST</label>
+     <input type="checkbox" id="st" name="category" value="st">
+     <label for="obc">OBC</label>
+     <input type="checkbox" id="obc" name="category" value="obc">
+     <label for="genearl">General</label>
+     <input type="checkbox" id="genearl" name="category" value="genearl">
+     </fieldset>
+     <fieldset>
+        <legend>Qualification</legend>
+        <label for="tenth"><sub>10</sub><sup>th</sup> Passed</label>
+        <input type="checkbox" name="passed" id="tenth" value="tenth">
+        <label for="twelth"><sub>12</sub><sup>th</sup> Passed</label>
+        <input type="checkbox" name="passed" id="twelth" value="twelth">
+        <label for="gru">Graduation Passed</label>
+        <input type="checkbox" name="passed" id="gru" value="Graduation">
+        <label for="ug">Under Graduate</label>
+        <input type="checkbox" name="passed" id="ug" value="tenth">
+     </fieldset>
+     <fieldset>
+      <legend>Project-Selection</legend>
+      <label for="myfile">Select a File</label>
+      <input type="file" name="userfile" id="myfile">
+     </fieldset>
+     <fieldset>
+        <legend>Some locality Check</legend>
+          <label for="Nationality">Nationality</label>
+          <select name="country" id="Nationality">
+            <option value="Russia">Russia</option>
+            <option value="Japan">Japan</option>
+            <option value="France">France</option>
+            <option value="India">India</option>
+            <option value="United State">United State</option>
+          </select>
+     </fieldset>
+     <fieldset>
+        <legend>Submit-Area</legend>
+        <button type="submit" id="sub" name="Form" value="submit">Submit</button>
+        <button type="reset" name="value-change" value="">Reset</button>
+     </fieldset>
+   </form>
+</body>
+</html>
